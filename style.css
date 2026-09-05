@@ -1,0 +1,24 @@
+h1 {color: rgb(28, 135, 197);}
+h1, h2, p {
+    font-family: Arial, sans-serif;
+}
+
+#searchButton {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+header { display: flex;
+    justify-content: space-between;
+
+}
+
+article {
+    display: flex;
+ 
+}
+
+.poster {
+    width: 200px;
+}
