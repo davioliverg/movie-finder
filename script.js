@@ -36,6 +36,7 @@ function buscarFilme() {
 
                     let sinopse = document.createElement("p");
                     sinopse.textContent = filme.overview;
+                    sinopse.className = "sinopse";
                     divInfo.appendChild(sinopse);
 
                     let nota = document.createElement("p");
@@ -51,7 +52,7 @@ function buscarFilme() {
                     main.appendChild(article);
                 }
             }
-            });
+        });
 }
 
 botao.addEventListener("click", function () {
